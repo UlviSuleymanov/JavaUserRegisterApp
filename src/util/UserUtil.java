@@ -59,5 +59,11 @@ public class UserUtil {
          }
          return result;
     }
-
+  public static void changeUser(){
+      UserUtil.printAllRegisteredUsers();
+      int i = Util.giveInt("Which user you want to update?");
+      System.out.println("Please enter new Data");
+      User user = UserUtil.fillUser();
+      Config.users[i - 1] = user;
+  }
 }

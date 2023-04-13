@@ -16,7 +16,7 @@ public class Util {
 
     public static String giveText(String title) {
         System.out.println(title + ":");
-        String answer = getScanner().nextLine();
+        String answer = getScanner().next();
         return answer;
     }
 
