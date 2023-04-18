@@ -1,6 +1,6 @@
 package beans;
 
-public class Admin {
+public class Admin{
     private String name;
     private String surname;
     private String email;
